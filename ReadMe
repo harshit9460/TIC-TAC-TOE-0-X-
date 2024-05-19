@@ -1,0 +1,88 @@
+Tic Tac Toe Game
+
+This project implements a simple Tic Tac Toe game with features like saving game state, retrieving game state, and live collaboration using Socket.io. The game is built using Node.js, Express.js, MongoDB, and Socket.io on the backend, and React on the frontend.
+
+Table of Contents
+
+- Features
+- Prerequisites
+- Getting Started
+- Installation
+- Usage
+- Contributing
+
+Features
+
+- Allows a single player to play the Tic Tac Toe game.
+- Saves and retrieves game state using MongoDB.
+- Implements live collaboration using Socket.io, enabling multiple users to play the game simultaneously.
+
+Prerequisites
+
+- Node.js (v14.x or higher)
+- MongoDB (v4.x or higher)
+- npm or yarn
+
+Getting Started
+
+To get started with this project, follow the steps below.
+
+Installation
+
+1. Clone the repository to your local machine.
+
+bash
+git clone https://github.com/your-username/tic-tac-toe.git
+cd tic-tac-toe
+
+
+2. Install the required dependencies for both the server and the client.
+
+bash
+# Install server dependencies
+cd server
+npm install
+
+# Install client dependencies
+cd ../client
+npm install
+
+Usage
+
+Start the Server
+
+1. Navigate to the server directory.
+
+#bash
+cd server
+
+
+2. Start the server.
+
+#bash
+npm start
+
+
+The server will start on http://localhost:5000 by default.
+
+Start the Client
+
+1. Navigate to the client directory.
+
+#bash
+cd client
+
+
+2. Start the React application.
+
+#bash
+npm start
+
+
+The React app will start on http://localhost:3000 by default.
+
+Now you can access the Tic Tac Toe game through your browser.
+
+Contributing
+
+Contributions are welcome!
